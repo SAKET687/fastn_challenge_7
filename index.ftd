@@ -1,0 +1,278 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- First-Section:
+
+-- Key-Points:
+
+-- Skills:
+
+-- Projects:
+
+-- footer:
+
+-- end: ds.page
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.step-2
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: Saket Srivastava
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ds.header-link: Home
+link: /
+
+-- ds.header-link: About
+link: #About
+
+-- ds.header-link: Skills
+link: #Skills
+
+-- ds.header-link: Projects
+link: #Projects
+
+-- ds.header-link: Contact 
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; First-Section Component --------------------------------------------------------------
+
+-- component First-Section:
+
+-- ds.section-row:
+
+-- ds.column:
+
+-- ds.heading-small: 🚀 Enthusiastic backend developer diving into the MERN stack, merging technical prowess with creative flair to craft impactful and seamless experiences. 💻✨
+
+-- end: ds.column
+
+-- ftd.image:
+src: ./profile_pic.jpg
+width.fixed.percent: 40
+height.fixed.percent: 75
+border-radius.px: 80
+
+-- end: ds.section-row
+
+-- end: First-Section
+
+;; --------------------------------------------------------------------------------------
+
+;; Key-Points Section -------------------------------------------------------------------
+
+-- component Key-Points:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+outer-background.solid: $ds.colors.background.step-1
+flush: full
+
+-- ds.heading-small: About:
+
+-- ds.heading-tiny: 👋 Greetings! I'm an ambitious software engineering student deeply passionate about constructing robust web solutions, specializing as a meticulous MERN Stack Developer. Currently, I am fully immersed in the dynamic landscape of project development, leveraging advanced frameworks like React, Vite, and Socket.io to create cutting-edge applications.🚀 In the realm of competitive programming, I've earned a noteworthy 1⭐ rating on CodeChef (Max. 1309) 🏆, showcasing my problem-solving skills. As a CodeForces newbie 🌟, I embrace challenges with enthusiasm and a desire for continuous growth. On my academic journey, I'm pursuing a B.Tech in Computer Science at NiT (22-26) 🎓, striving to further deepen my technological expertise. Let's connect and embark on an innovation journey together! 💻✨
+
+-- end: ds.section-column
+
+-- end: Key-Points
+
+;; --------------------------------------------------------------------------------------
+
+;; Skills component -------------------------------------------------------------------
+
+-- component Skills:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+outer-background.solid: $ds.colors.background.step-1
+
+
+-- ds.heading-small: Skills: 
+
+-- ds.row:
+spacing: $ds.spaces.vertical-gap.space-between
+
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1643514112/719/html5.png?1643514112
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1643514272/2411/css.jpg
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://th.bing.com/th?id=OIP.9jAkFPGpe5YO-8RM0Le_XgHaIa&w=234&h=266&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1643514460/4425/nodejs.png?1643514460
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1643514155/1161/react.png?1643514155
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1634316329/49866/vite.png?1634316329
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://th.bing.com/th/id/OIP.L5FYtAaJTJVWfFKbNaFhVgHaDV?rs=1&pid=ImgDetMain
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://th.bing.com/th?id=ODLS.7ee38d86-4472-452b-806c-fd7945e59518&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1643514480/4638/c-lang.png?1643514480
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://emojis.slackmojis.com/emojis/images/1643514403/3795/cpp.png?1643514403
+height.fixed.px: 75
+border-radius.px: 10
+
+-- ftd.image: https://th.bing.com/th/id/OIP.2ZHi-aVKHCM_cXaaTpMJzAAAAA?w=175&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7
+height.fixed.px: 75
+border-radius.px: 10
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: Skills
+
+;; --------------------------------------------------------------------------------------
+
+;; Projects component --------------------------------------------------------------------
+
+-- component Projects:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+flush: full
+
+-- ds.heading-small: Projets:
+
+-- ds.section-row:
+spacing: $ds.spaces.vertical-gap.space-between
+flush: full
+
+-- ds.column:
+
+-- ftd.image: https://media.licdn.com/dms/image/C5622AQFXax4liotZZA/feedshare-shrink_2048_1536/0/1679211567435?e=1709769600&v=beta&t=N7BYYBt6KTbAWXJkZ8FYbw23IVl6opRaWywbegkvTgw
+width.fixed.percent: 75
+height.fixed.px: 275
+
+-- ds.heading-small: Coder's Dashboard
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+variant: outline
+link: https://saket687.github.io/CODER-S-DASHBOARD/
+
+-- end: ds.column
+
+-- ds.column:
+
+-- ftd.image: https://media.licdn.com/dms/image/D5622AQF6W63wD6mmTA/feedshare-shrink_800/0/1704128362612?e=1709769600&v=beta&t=w5WMbhtZj5NkttRNtuJu8Qdips9UTWXeRBG9Usd51JE
+width.fixed.percent: 75
+height.fixed.px: 275
+
+
+-- ds.heading-small: ChatEclipse
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+variant: outline
+link: https://chateclipse.onrender.com/
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- ds.secondary-button: For a more extensive collection of projects and additional information, please explore my GitHub profile.
+link: https://github.com/SAKET687/
+
+-- end: ds.section-column
+
+-- end: Projects
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+;; width: hug-content
+
+-- ds.phosphor-icon-button: Saket Srivastava
+icon: code
+variant: link
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+variant: link
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+variant: link
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+variant: link
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------
+
